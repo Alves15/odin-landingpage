@@ -1,8 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     background-color: cornflowerblue;
-    padding: 10px;
+    padding: 10px 100px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -13,4 +19,17 @@ ul {
     display: flex;
     list-style: none;
     gap: 15px;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+}
+
+.left-header-container {
+    flex: 1;
+}
+
+.right-header-container {
+    flex: 1;
 }
