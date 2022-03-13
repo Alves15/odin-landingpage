@@ -1,4 +1,16 @@
 .header {
     display: flex;
     background-color: cornflowerblue;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
 }
