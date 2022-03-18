@@ -34,7 +34,7 @@ ul {
     flex: 1;
 }
 
-/*main*/
+/*cards section*/
 .cards-cont {
     display: flex;
     justify-content: center;
@@ -50,4 +50,28 @@ ul {
     border: 3px solid blue;
     border-radius: 5%;
     height: 100px;
+}
+
+/*quote section*/
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+/*call to action section*/
+.calltoaction-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.calltoaction {   
+    background-color: #3882F6;
+    width: 70%;
+    margin: 50px;
+}
+
+/*footer*/
+.footer {
+    background-color: #1f2937;
+    justify-content: center;
 }
