@@ -33,3 +33,21 @@ ul {
 .right-header-container {
     flex: 1;
 }
+
+/*main*/
+.cards-cont {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card {
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.border {
+    border: 3px solid blue;
+    border-radius: 5%;
+    height: 100px;
+}
