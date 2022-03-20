@@ -113,20 +113,46 @@ button {
     justify-content: center;
 }
 
-/*call to action section*/
-.calltoaction-cont {
-    display: flex;
-    justify-content: center;
+.quote-sign {
+    font-size: 18px;
 }
 
-.calltoaction {   
+/*call to action section*/
+.call-cont {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.call {
+    display: flex;   
     background-color: #3882F6;
     width: 70%;
-    margin: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+}
+
+.call-left {
+    flex: 3;
+    color: #F9FAF8;
+}
+
+.call-right {
+    flex: 1;
+}
+
+.class-btn {
+    border: 5px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 /*footer*/
 .footer {
     background-color: #1f2937;
-    justify-content: center;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 14px;
+    padding: 25px 0;
 }
